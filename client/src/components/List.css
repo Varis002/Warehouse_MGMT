@@ -1,0 +1,33 @@
+.row>div{
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(8),
+    &:nth-child(9) {
+      @media (max-width: 1024px) {
+        display: none;
+      }
+    }
+    &:nth-child(6){
+        @media (max-width: 376px) {
+            display: none;
+          }
+    }
+    &:nth-child(7){
+        @media (max-width: 320px) {
+            display: none;
+          }
+    }
+}
+
+.Row{
+    font-size: 1.1rem;
+    border-bottom: 2px solid grey;
+    background-color: transparent !important;
+    backdrop-filter: brightness(25px);
+    color: white;
+    transition: ease-in-out 0.1s;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}

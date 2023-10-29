@@ -1,0 +1,31 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.nav-item{
+  color: antiquewhite;
+  font-size:2rem;
+  &:hover{
+    text-decoration: none !important;
+    color: antiquewhite !important;
+  }
+}
+
+button{
+  &:focus{
+    outline: none !important;
+  }
+  &:active{
+    outline: none !important;
+  }
+}
+
+.searchBar{
+  border: 0 !important;
+  outline: none !important;
+  &:focus{
+    box-shadow: none !important;
+  }  
+}
